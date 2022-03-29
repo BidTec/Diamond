@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIAMONDICECR</title>
+
+    <!--Aqui agrego el Favicon de la Empresa-->
+    <!--<link rel="shortcut icon" href="PONER AQUI LA EXTENCION DEL FAVICON" type="image/nombre">-->
+
+    <!--Enlace a hoja de Estilo-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Enlace Fuentes tipograficas Google Fonts(Roboto)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!--Enlace FontaWesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+                                <!--ESTAR PENDIENTE SI GENERA CONFLICTOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Boxicons CSS (https://boxicons.com/)-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!--HEADER-->
+    <section class="header" id="inicio">
+        <nav>
+            <div class="nav-links" id="navLinks">                
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#acercade">ACERCA DE</a></li>
+                    <li><a href="#portafolio">PORTAFOLIO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#servicio">SERVICIOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>                    
+                </ul>
+            </div>            
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <a href="index.php"><img src="./img/Logo.png" alt=""></a>
+            <h1>BIENVENIDOS A DIAMOND ICE CR</h1>
+            <p>NUNCA DEJES DE SOÑAR<br>COMPROMISO PARA EL EXITO</p>
+            <a href="#" class="hero-btn">COTIZAR</a>
+        </div>
+    </section>
+<main>
+    <!--ACERCA DE-->
+    <section class="acerca" id="acercade">
+        <h1 class="acercah1">NUESTROS PRODUCTOS</h1>
+        <p class="acercap">SIN MIEDO AL EXITO</p>
+
+        <div class="row">
+            <div class="acerca-col">
+                <h3 class="acercah3">CALIDAD</h3>
+                <p class="acercap1">Contamos con los mejores equipos del mercado, fabricadores de cubitos de hielo perfectos, los cuales responden a una alta calidad a la hora de la preparacion de las bebidas.</p>
+            </div>
+            <div class="acerca-col">
+                <h3 class="acercah3">RENDIMIENTO</h3>
+                <p class="acercap1">Equipos a muy bajo costo, generando grandes ganancias, obteniendo rentabilidad de inversion. Los cuales se adaptaran a sus necesidades.</p>
+            </div>
+            <div class="acerca-col">
+                <h3 class="acercah3">FACILIDAD DE USO</h3>
+                <p class="acercap1">Nuestras maquinas cuentan con un funcionamiento muy simple, estas se encargan de realizar todo el trabajo ya que demandan el minimo de manipulacion Humana.</p>
+            </div>                        
+        </div>
+    </section>
+    <!--PORTAFOLIO-->
+    <section class="gallery" id="portafolio">
+        <div class="contenedorg">
+            <h2 class="subtitulo">GALERIA<br><a href="./galeria.html" class="hero-btn">Ver mas</a></h2>          
+                <div class="contenedor-galeria">
+                    <img src="./img/m1.png" alt="" class="img-galeria">
+                    <img src="./img/m2.png" alt="" class="img-galeria">
+                    <img src="./img/m3.png" alt="" class="img-galeria">
+                    <img src="./img/m4.png" alt="" class="img-galeria">
+                    <img src="./img/m5.png" alt="" class="img-galeria">
+                    <img src="./img/m6.png" alt="" class="img-galeria">
+                </div>
+        </div>
+    </section>
+    <section class="imagen-light">
+        <img src="./icons/closeLight.svg" alt="" class="close">
+        <img src="" alt="" class="agregar-imagen">
+    </section>
+    <!--NUESTRO EQUIPO-->
+    <h1 class="titue" id="nosotros">NUESTRO EQUIPO</h1>
+    <section class="equipo" id="">
+        <div class="carde">
+            <div class="contenido">
+                <span></span>
+                <div class="imge">
+                    <img src="./img/CEO.png" alt="" class="image">
+                </div>
+                <h4>Rafael Angel Mora</h4>
+                <h6>CEO</h6>
+                <p>Su percepción global acerca de la compañía le permite definir con gran exactitud y precisión la visión, el propósito y la misión de la organización.</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.facebook.com/Diamond-ice-110555277902420"><i class="fa-brands fa-facebook-f"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>-->
+            </div>            
+        </div>
+        <!----------------------------------------------->
+        <div class="carde">
+            <div class="contenido">
+                <span></span>
+                <div class="imge">
+                    <img src="./img/e3.jpg" alt="" class="image">
+                </div>
+                <h4>Nombre Colaborador</h4>
+                <h6>Ventas</h6>
+                <p>Amplia experiencia en planeación, ejecución y control de actividades para alcanzar un mejor funcionamiento de todo el negocio.</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.facebook.com/Diamond-ice-110555277902420"><i class="fa-brands fa-facebook-f"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>-->
+            </div>            
+        </div>
+        <!----------------------------------------------->
+        <div class="carde">
+            <div class="contenido">
+                <span></span>
+                <div class="imge">
+                    <img src="./img/e4.jpg" alt="" class="image">
+                </div>
+                <h4>Nombre Colaborador</h4>
+                <h6>Tecnico Electrico</h6>
+                <p>Especialista en la gestión de los sistemas de transformación de servicios, evaluación de sistemas que son aplicados para la producción y la calidad.</p>
+            </div>
+
+            <div class="links">
+                <a href="https://www.facebook.com/Diamond-ice-110555277902420"><i class="fa-brands fa-facebook-f"></i></a>
+                <!--<a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>-->
+            </div>            
+        </div>
+        <!----------------------------------------------->
+    </section>
+    <!--SERVICIOS-->
+    <section class="servic" id="servicio">
+        <h1 class="sh">NUESTRAS FACILIDADES</h1>
+        <br>DE LA MANO CON NOSOTROS SOLO OBTENDRA GANANCIAS<br> YA QUE OFRECEMOS LO QUE NADIE ESTA DISPUESTO A BRINDARLE EN EL MERCADO!!!!</p>
+
+        <div class="row">
+            <div class="servic-col">
+                <img src="./img/s1.jpg" alt=""> 
+                <h3>Comunicación</h3>
+                <p>Manejamos una alta disponibilidad de respuesta, ya que contamos con diferentes formas activas de contactarnos, y con el mejor personal para ser asesorado!!!</p>
+            </div>
+
+            <div class="servic-col">
+                <img src="./img/s2.jpg" alt="">
+                <h3>Tiempo</h3>
+                <p>Su equipo contara con una alta continuidad de funcionamiento, ya que dispondra de un cambio inmediato de maquina, si fuera el caso que el daño de la maquina que disponga, se extendiera mucho el tiempo de reparacion!!!</p>
+            </div>
+                        
+            <div class="servic-col">
+                <img src="./img/s3.jpg" alt="">
+                <h3>Dinero</h3>
+                <p>No gastara en extras, corre por nuestra cuenta el mantenimiento preventivo y correctivo de nuestras maquinas de alquiler!!!</p>
+            </div>            
+        </div>
+
+    </section>
+    <!--TESTIMONIAL-->
+    <section class="clientes contenedor">
+        <h2 class="titulo">QUE DICEN NUESTROS CLIENTES</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./img/t1.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Nombre Apellido</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    <br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/t2.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Nombre Apellido</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    <br>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CALL TO ACTION-->
+    <section class="cta" id="contacto">
+        <h1>NUNCA DEJES DE SOÑAR<br>Estamos para Servirles</h1>
+        <a href="contacto.html" class="hero-btn">CONTÁCTENOS</a>
+    </section>
+    <!--CANALES DE COMUNICACION-->
+    <section class="contenedor" id="expertos">
+        <h2 class="subtitulo">MANTENTE EN CONTACTO CON NOSOTROS</h2>
+        <section class="experts">
+            <div class="cont-expert">
+                <img src="./img/Isometric/Calling_Monochromatic.svg" alt="">
+                <h3 class="n-expert">Llámanos Ahora<br>+506 5555-5555</h3>                
+            </div>
+            <div class="cont-expert">
+                <img src="./img/Isometric/Video call_Monochromatic.svg" alt="">
+                <h3 class="n-expert">Horario de Atencion<br>Lunes-Viernes/8:00am-5:00pm</h3>                
+            </div>
+            <div class="cont-expert">
+                <img src="./img/Isometric/Sending emails_Monochromatic.svg" alt="">
+                <h3 class="n-expert">Envianos un Correo <br>Empresa@Empresa.com</h3>                
+            </div>
+        </section>
+    </section>
+</main>
+    <!--FOOTER-->
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">DIAMOND ICE CR</h2>
+                    <p>Somos expertos en la creación de tus sueños</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Diamond-ice-110555277902420" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <!--JavaScript Menu Responsive-->
+    <script src="./js/menu.js"></script>
+    <script src="./js/desplazamiento.js"></script>
+    <!------------------------------>
+    <!--JavaScript Efecto nieve-->
+    <script src="./js/nieve.js"></script>
+    <!------------------------------>
+    <!--JavaScript Galeria-->
+    <script src="./js/lightbox.js"></script>
+    <!------------------------------>
+</body>
+</html>

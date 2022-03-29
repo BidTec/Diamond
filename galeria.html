@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/stylegallery.css">
+</head>
+<body>
+<!--Header-->
+    <header>
+        <section class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Cotizar</a></li>
+                </ul>
+          </nav>
+        </section>
+    </header>
+<!--GALERIA-->
+    <section class="galeria">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/z1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/z2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/z3.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/z4.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/z5.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/z6.png" alt=""></div>                
+                <div class="swiper-slide"><img src="./img/z7.png" alt=""></div>                
+                <div class="swiper-slide"><img src="./img/z8.png" alt=""></div>                
+                <div class="swiper-slide"><img src="./img/z9.png" alt=""></div>                
+                <div class="swiper-slide"><img src="./img/z10.png" alt=""></div>                
+            </div>
+            <!-- Add Pagination-->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+<!----------->    
+    <!--Script ***https://swiperjs.com/get-started*** -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--Script-->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor:true,
+            centeredSlides:true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 20,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows : true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 800,
+                disableOnInteraction: false,
+            }
+            /*pagination: {
+                el: '.swiper-pagination',
+            },*/
+        });
+    </script>
+</body>
+</html>
